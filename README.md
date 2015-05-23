@@ -6,8 +6,8 @@ installed from [PPA bitcoin repository](https://launchpad.net/~bitcoin/+archive/
 
 Currently contains:
 
-* phusion/baseimage:0.9.10 (Docker-friendly minimal Ubuntu 14.04)
-* bitcoind (v0.9.1.0-g026a939-beta)
+* phusion/baseimage:0.9.16 (Docker-friendly minimal Ubuntu 14.04)
+* bitcoind (v0.10.1.0-gd8ac901)
 
 ## How to use
 
