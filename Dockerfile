@@ -1,5 +1,9 @@
 FROM phusion/baseimage:0.9.16
 
+# Enable SSH
+RUN rm -f /etc/service/sshd/down
+RUN /etc/my_init.d/00_regen_ssh_host_keys.sh
+
 # Enable insecure SSH logins.
 #
 # Get 'insecure_key':
